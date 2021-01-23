@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Color Generator</title>
+  </head>
+  <body style="background-color:{{color}}">
+    <form method="post">
+      {{form.hidden_tag()}}
+      {{form.submit()}}
+    </form>
+    <h1>{{color}}</h1>
+  </body>
+</html>
